@@ -28,7 +28,7 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .max-width{
     max-width: 1300px;
@@ -76,6 +76,40 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
+/* footer section */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #bd2c00;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
 
 /* navbar styling */
 .navbar{
@@ -365,26 +399,18 @@ section .title::after{
     background: brown;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 60%;
 }
 .skills-content .right .css::before{
-    width: 70%;
+    width: 50%;
 }
 .skills-content .right .js::before{
-    width: 70%;
+    width: 50%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 80%;
 }
-.skills-content .right .mysql::before{
-    width: 50%;
-}
-.skills-content .right .java::before{
-    width: 50%;
-}
-.skills-content .right .python::before{
-    width: 55%;
-}
+
 
 /* teams section styling */
 .teams .title::after{
